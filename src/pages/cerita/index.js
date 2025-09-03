@@ -5,7 +5,7 @@ export default function Cerita() {
    return (
       <div>
          <Banner />
-         <section className="pt-20 pb-10 lg:pt-[120px] lg:pb-20">
+         <section className="pt-5 pb-10 lg:pt-10 lg:pb-20">
             <div className="container">
                <div className="flex flex-wrap -mx-4">
                   <Card />
