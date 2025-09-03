@@ -8,7 +8,7 @@ const inter = Inter({
 
 export default function Layout({ children }) {
    return (
-      <main className={inter.variable}>
+      <main className={`${inter.variable} ${inter.className}`}>
          <Navbar />
          {children}
       </main>
