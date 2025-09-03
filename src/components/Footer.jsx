@@ -8,7 +8,7 @@ export default function Footer() {
                <div className="-mx-4 flex flex-wrap">
                   <div className="w-full">
                      <div className="my-1 flex justify-center md:justify-center">
-                        <p className="text-base text-gray-7">
+                        <p className="text-xs sm:text-base text-gray-7">
                            Copyright © {new Date().getFullYear()}{" "}
                            <Link href="/" target="_blank" rel="nofollow noopener" className="text-gray-1 hover:underline">
                               Cerita<span style={{ color: "#f1c28b" }}>Budaya</span>
