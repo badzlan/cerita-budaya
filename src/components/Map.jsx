@@ -3,31 +3,29 @@ import { ComposableMap, Geographies, Geography, Marker } from "react-simple-maps
 
 const geoUrl = "https://raw.githubusercontent.com/ghapsara/indonesia-atlas/refs/heads/master/provinsi/provinces-simplified-topo.json";
 
-// Mapping provinsi -> slug cerita
 const provinceStories = {
    "Sumatera Barat": "malin-kundang",
    "Jawa Barat": "sangkuriang",
    "Kalimantan Barat": "batu-menangis",
 };
 
-// Marker cerita rakyat
 const markers = [
    {
       markerOffset: -30,
       name: "Malin Kundang",
-      coordinates: [100.3639, -0.9492], // Padang, Sumatera Barat
+      coordinates: [100.3639, -0.9492],
       slug: "malin-kundang",
    },
    {
       markerOffset: -30,
       name: "Sangkuriang",
-      coordinates: [107.6191, -6.9175], // Bandung, Jawa Barat
+      coordinates: [107.6191, -6.9175],
       slug: "sangkuriang",
    },
    {
       markerOffset: -30,
       name: "Batu Menangis",
-      coordinates: [109.3449, -0.0227], // Pontianak, Kalimantan Barat
+      coordinates: [109.3449, -0.0227],
       slug: "batu-menangis",
    },
 ];
@@ -40,13 +38,12 @@ export default function Map() {
          <ComposableMap
             projection="geoMercator"
             projectionConfig={{
-               center: [118, -2], // Tengah Indonesia
+               center: [118, -2],
                scale: 1000,
             }}
             width={800}
             height={500}
          >
-            {/* Wilayah Indonesia */}
             <Geographies geography={geoUrl}>
                {({ geographies }) =>
                   geographies.map((geo) => {
@@ -58,12 +55,12 @@ export default function Map() {
                         <Geography
                            key={geo.rsmKey}
                            geography={geo}
-                           fill={hasStory ? "#F1C28B" : "#EAEAEC"} // default warna
+                           fill={hasStory ? "#F1C28B" : "#EAEAEC"}
                            stroke="#D6D6DA"
                            style={{
                               default: { outline: "none" },
                               hover: {
-                                 fill: hasStory ? "#D98E43" : "#D6D6DA", // hover beda
+                                 fill: hasStory ? "#D98E43" : "#D6D6DA",
                                  outline: "none",
                                  cursor: hasStory ? "pointer" : "default",
                               },
@@ -77,7 +74,6 @@ export default function Map() {
                }
             </Geographies>
 
-            {/* Marker cerita rakyat */}
             {markers.map(({ name, coordinates, markerOffset, slug }) => (
                <Marker key={name} coordinates={coordinates} onClick={() => router.push(`/cerita/${slug}`)}>
                   <g fill="none" stroke="#4F200D" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" transform="translate(-12, -24)" className="cursor-pointer hover:stroke-[#D98E43]">
