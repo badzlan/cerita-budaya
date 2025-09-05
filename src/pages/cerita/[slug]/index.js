@@ -1,4 +1,4 @@
-import { quiz } from "@/data/quiz/bawang_merput";
+import { quiz } from "@/data/quiz/danau_toba";
 import Banner from "@/components/Banner";
 import Embed from "@/components/Embed";
 import QuizCard from "@/components/QuizCard";
