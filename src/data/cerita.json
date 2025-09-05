@@ -66,50 +66,6 @@
       "quizFile": "keong_mas"
    },
    {
-      "slug": "legenda-batu-menangis",
-      "title": "Legenda Batu Menangis: Putri Malas yang Berubah Menjadi Batu",
-      "region": "Kalimantan Barat",
-      "island": "Pulau Kalimantan",
-      "thumbnail": "https://img.youtube.com/vi/pLdL0uGzpkI/hqdefault.jpg",
-      "videoUrl": "https://www.youtube.com/embed/pLdL0uGzpkI",
-      "synopsis": "Seorang anak gadis cantik tapi pemalas selalu membuat ibunya kecewa. Saat di pasar, ia bahkan malu mengakui ibunya sendiri. Sang ibu menangis dan berdoa, hingga gadis itu dikutuk menjadi batu. Batu itu terus mengeluarkan air mata, dikenal sebagai 'Batu Menangis'.",
-      "location": { "lat": -0.1322, "lng": 111.0969 },
-      "quizFile": "batu_menangis"
-   },
-   {
-      "slug": "banta-berensyah",
-      "title": "Kisah Banta Berensyah: Seruling Sakti, dan Petualangan Mencari Emas!",
-      "region": "Aceh",
-      "island": "Pulau Sumatera",
-      "thumbnail": "https://img.youtube.com/vi/pvzmpDi9e0o/hqdefault.jpg",
-      "videoUrl": "https://www.youtube.com/embed/pvzmpDi9e0o",
-      "synopsis": "Banta Berensyah, pemuda baik hati dari Aceh, hidup miskin bersama ibunya. Suatu hari, ia mendengar sayembara: siapa yang bisa menemukan kain emas akan menikahi putri raja. Dengan seruling sakti peninggalan ayahnya, Banta memulai petualangan penuh rintangan. Apakah ia berhasil membawa pulang kain emas dan memenangkan hati sang putri?",
-      "location": { "lat": 5.5483, "lng": 95.3238 },
-      "quizFile": "banta_berensyah"
-   },
-   {
-      "slug": "asal-usul-selat-bali",
-      "title": "Asal Usul Selat Bali: Kisah Pangeran Serakah yang Berubah Menjadi Selat",
-      "region": "Bali",
-      "island": "Pulau Bali",
-      "thumbnail": "https://img.youtube.com/vi/SfINME_BJHE/hqdefault.jpg",
-      "videoUrl": "https://www.youtube.com/embed/SfINME_BJHE",
-      "synopsis": "Di Pulau Jawa, hiduplah seorang anak bernama Manik Angkeran yang serakah. Ayahnya meminjam kekayaan naga ajaib untuk menolongnya, tetapi Manik justru makin tamak. Perbuatannya membuat naga marah dan sebuah keajaiban terjadi: bumi terbelah, menciptakan Selat Bali yang memisahkan ayah dan anak itu untuk selamanya.",
-      "location": { "lat": -8.4095, "lng": 115.1889 },
-      "quizFile": "selat_bali"
-   },
-   {
-      "slug": "timun-mas",
-      "title": "Timun Mas: Kisah Timun Mas dan Buto Ijo yang Serakah",
-      "region": "Jawa Tengah",
-      "island": "Pulau Jawa",
-      "thumbnail": "https://img.youtube.com/vi/juEC_Q-j9Tw/hqdefault.jpg",
-      "videoUrl": "https://www.youtube.com/embed/juEC_Q-j9Tw",
-      "synopsis": "Mbok Sarni mendapatkan biji timun ajaib dari Buto Ijo dan melahirkan seorang anak bernama Timun Mas. Saat Buto Ijo menagih janjinya, Timun Mas berlari ke hutan dengan bekal benda-benda ajaib. Apakah ia berhasil lolos dari raksasa jahat itu?",
-      "location": { "lat": -7.150975, "lng": 110.140259 },
-      "quizFile": "timun_mas"
-   },
-   {
       "slug": "putri-samba-paria",
       "title": "Putri Samba Paria: Kisah Putri Samba Paria dan Jejak Daun Misterius",
       "region": "Sulawesi Barat",
