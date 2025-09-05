@@ -50,8 +50,9 @@ export const quiz = {
       },
 
       {
-         question: "Apa isi labu yang sedang dibuka oleh Bawang Putih? <br> <img src='/bawang-merput.png'>",
+         question: "Apa isi labu yang sedang dibuka oleh Bawang Putih? <br> <img src='/quiz/bawang-merput.png'>",
          questionType: "text",
+         answerSelectionType: "multiple",
          answers: ["A. Buah labu", "B. Kepiting", "C. Emas", "D. Permata"],
          correctAnswer: [1, 2, 3],
          messageForCorrectAnswer: "Jawaban Benar!",
