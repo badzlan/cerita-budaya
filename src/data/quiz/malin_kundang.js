@@ -39,7 +39,7 @@ export const quiz = {
          point: "20",
       },
       {
-         question: "Apa yang terjadi pada Malin di foto ini? <br> <img src='http://localhost:3000/quiz/malin-kundang.png'>",
+         question: "Apa yang terjadi pada Malin di foto ini? <br> <img src='/malin-kundang.png'>",
          questionType: "text",
          answers: ["A. Mukanya rusak.", "B. Menjadi batu.", "C. Menjadi air.", "D. Berteriak karena ada kecoa di kapal."],
          correctAnswer: "2",

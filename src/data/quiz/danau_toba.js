@@ -39,7 +39,7 @@ export const quiz = {
          point: "20",
       },
       {
-         question: "Bekal siapa yang Samosir makan saat ini? <br> <img src='http://localhost:3000/quiz/danau-toba.png'>",
+         question: "Bekal siapa yang Samosir makan saat ini? <br> <img src='/quiz/danau-toba.png'>",
          questionType: "text",
          answers: ["A. Pamannya", "B. Tetangganya", "C. Ayahnya", "D. Ibunya"],
          correctAnswer: "3",

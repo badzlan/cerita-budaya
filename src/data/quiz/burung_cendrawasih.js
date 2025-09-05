@@ -39,7 +39,7 @@ export const quiz = {
          point: "20",
       },
       {
-         question: "Apa nama burung yang ada di foto? <br> <img src='http://localhost:3000/quiz/cendrawasih.png'>",
+         question: "Apa nama burung yang ada di foto? <br> <img src='/quiz/cendrawasih.png'>",
          questionType: "text",
          answers: ["A. Burung Kakak Tua", "B. Burung Elang", "C. Burung Cendrawasih", "D. Burung Gagak"],
          correctAnswer: "3",

@@ -44,7 +44,7 @@ export const quiz = {
          point: "20",
       },
       {
-         question: "Siapa laki-laki dan perempuan yang ada pada foto? <br> <img src='http://localhost:3000/quiz/sangkuriang.png'>",
+         question: "Siapa laki-laki dan perempuan yang ada pada foto? <br> <img src='/quiz/sangkuriang.png'>",
          questionType: "text",
          answers: ["A. Sangkuriang dan Ibunya", "B. Sangkuriang dan Kakaknya", "C. Kakak Sangkuriang dan Ibu Sangkuriang", "D. Sangkuriang dan Adiknya"],
          correctAnswer: "1",

@@ -39,7 +39,7 @@ export const quiz = {
          point: "20",
       },
       {
-         question: "Siapa laki-laki berbaju merah di foto tersebut? <br> <img src='http://localhost:3000/quiz/si-pitung.png'>",
+         question: "Siapa laki-laki berbaju merah di foto tersebut? <br> <img src='/quiz/si-pitung.png'>",
          questionType: "text",
          answers: ["A. Joko Kendil", "B. Pembantu", "C. Pangeran", "D. Teman Joko Kendil"],
          correctAnswer: "1",

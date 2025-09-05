@@ -44,7 +44,7 @@ export const quiz = {
          point: "20",
       },
       {
-         question: "Siapa perempuan yang ada di foto tersebut? <br> <img src='http://localhost:3000/quiz/keong-mas.png'>",
+         question: "Siapa perempuan yang ada di foto tersebut? <br> <img src='/quiz/keong-mas.png'>",
          questionType: "text",
          answers: ["A. Dewi Galuh", "B. Candra Kirana", "C. Nenek", "D. Jasmin"],
          correctAnswer: "2",

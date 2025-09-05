@@ -39,7 +39,7 @@ export const quiz = {
          point: "20",
       },
       {
-         question: "Siapa yang ada di foto ini? <br> <img src='http://localhost:3000/quiz/putri-samba-paria.png'>",
+         question: "Siapa yang ada di foto ini? <br> <img src='/quiz/putri-samba-paria.png'>",
          questionType: "text",
          answers: ["A. Adik Kak Samba", "B. Raja", "C. Kak Samba", "D. Petani"],
          correctAnswer: "1",

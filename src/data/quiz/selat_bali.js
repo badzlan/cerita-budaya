@@ -1,0 +1,58 @@
+export const quiz = {
+   quizTitle: "Quiz Tentang Asal Usul Selat Bali",
+   quizSynopsis:
+      "Yuk ikuti quiz seru tentang cerita rakyat Nusantara yang terkenal dari tanah Bali, Asal Usul Selat Bali! Kamu akan diajak menjawab pertanyaan seputar cerita terbentuknya Selat Bali, mulai dari awal hingga akhir kisahnya yang penuh pelajaran berharga.",
+   questions: [
+      {
+         questionType: "text",
+         answers: ["A. Naga Besukih", "B. Manik Angkeran", "C. Betara Guru", "D. Cidi Mantra"],
+         question: "Siapakah nama putra dari Brahmana Sidi Mantra yang memiliki kebiasaan buruk suka berjudi dan sabung ayam?",
+         messageForCorrectAnswer: "Jawaban Benar!",
+         messageForInorrectAnswer: "Jawaban Salah :(",
+         correctAnswer: "2",
+         point: "20",
+      },
+      {
+         messageForCorrectAnswer: "Jawaban Benar!",
+         messageForInorrectAnswer: "Jawaban Salah :(",
+         point: "20",
+         answers: ["Benar", "Salah"],
+         question: "Naga Besukih memberikan kekayaan kepada Sidi Mantra setelah ia memotong ekor naga tersebut.",
+         questionType: "text",
+         correctAnswer: "2",
+      },
+      {
+         messageForCorrectAnswer: "Jawaban Benar!",
+         messageForInorrectAnswer: "Jawaban Salah :(",
+         point: "20",
+         answers: ["Benar", "Salah"],
+         question: "Setelah mendapatkan kembali ekornya, Naga Besukih menolak untuk menghidupkan kembali Manik Angkeran.",
+         questionType: "text",
+         correctAnswer: "2",
+      },
+      {
+         messageForCorrectAnswer: "Jawaban Benar!",
+         messageForInorrectAnswer: "Jawaban Salah :(",
+         point: "20",
+         answers: [
+            "A. Naga Besukih menyemburkan api dan membunuh Manik Angkeran.",
+            "B. Naga Besukih langsung pergi tanpa melakukan apa-apa.",
+            "C. Naga Besukih memaafkan perbuatan Manik Angkeran.",
+            "D. Sidi Mantra memohon kepada Naga Besukih untuk menghidupkan kembali putranya.",
+         ],
+         question: "Apa saja peristiwa yang terjadi setelah Manik Angkeran memotong ekor Naga Besukih?",
+         questionType: "text",
+         answerSelectionType: "multiple",
+         correctAnswer: [1, 4],
+      },
+      {
+         messageForCorrectAnswer: "Jawaban Benar!",
+         messageForInorrectAnswer: "Jawaban Salah :(",
+         point: "20",
+         answers: ["A. Sebuah gunung api meletus.", "B. Terjadi gempa bumi yang dahsyat.", "C. Daratan terbelah dan terisi air, membentuk selat.", "D. Sebuah jembatan muncul untuk menghubungkan mereka."],
+         question: "Setelah Sidi Mantra menggariskan tongkatnya ke tanah, apa yang terjadi pada daratan di antara mereka? <br> <img src='/quiz/selat-bali.png'>",
+         correctAnswer: "3",
+         questionType: "text",
+      },
+   ],
+};
