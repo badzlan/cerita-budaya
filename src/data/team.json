@@ -1,0 +1,17 @@
+[
+   {
+      "image": "/faza.jpg",
+      "name": "Faza Mumtaz Ramadhan",
+      "role": "Web Designer"
+   },
+   {
+      "image": "/badzlan.jpg",
+      "name": "Badzlan Nur Dhabith",
+      "role": "Full-stack Developer"
+   },
+   {
+      "image": "/aryo.jpg",
+      "name": "Aryo Ristiawan Machfudz",
+      "role": "Front-end Developer"
+   }
+]
