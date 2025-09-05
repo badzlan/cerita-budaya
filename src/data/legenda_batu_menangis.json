@@ -1,0 +1,71 @@
+{
+    "quizTitle": "Quiz Tentang Legenda Batu Menangis",
+    "questions": [{
+            "questionType": "text",
+            "answers": [
+                "A. Dia tidak ingin ibunya ketinggalan.",
+                "B. Dia merasa malu dengan penampilan ibunya yang sederhana.",
+                "C. Dia ingin sampai di pasar lebih cepat.",
+                "D. Ibunya memintanya untuk berjalan di depan."
+            ],
+            "correctAnswer": "2",
+            "messageForCorrectAnswer": "Jawaban Benar!",
+            "messageForInorrectAnswer": "Jawaban Kurang Tepat :(",
+            "point": "20",
+            "question": "Mengapa Putri selalu berjalan jauh di depan ibunya saat pergi ke pasar?"
+        },
+        {
+            "questionType": "text",
+            "answers": [
+                "Benar",
+                "Salah"
+            ],
+            "question": "Ibu Putri berdoa kepada Tuhan agar anaknya menjadi batu karena merasa sedih dan putus asa.",
+            "correctAnswer": "1",
+            "messageForCorrectAnswer": "Jawaban Benar!",
+            "messageForInorrectAnswer": "Jawaban Salah :(",
+            "point": "20"
+        },
+        {
+            "point": "20",
+            "question": "Setelah menjadi batu, tangisan Putri berhenti.",
+            "questionType": "text",
+            "answers": [
+                "Benar",
+                "Salah"
+            ],
+            "correctAnswer": "2",
+            "messageForCorrectAnswer": "Jawaban Benar!",
+            "messageForInorrectAnswer": "Jawaban Salah :("
+        },
+        {
+            "point": "20",
+            "question": "Apa saja sifat buruk yang dimiliki oleh Putri dalam cerita ini?",
+            "questionType": "text",
+            "answers": [
+                "A. Sombong",
+                "B. Rajin",
+                "C. Manja",
+                "D. Jujur"
+            ],
+            "correctAnswer": [1, 3],
+            "messageForCorrectAnswer": "Jawaban Benar!",
+            "messageForInorrectAnswer": "Jawaban Salah :("
+        },
+        {
+            "question": "Alasan apa yang menyebabkan Putri berubah menjadi batu? <br> <img src='/quiz/batu-menangis.png'>",
+            "questionType": "text",
+            "answers": [
+                "A. Dia terkena kutukan dari seorang penyihir.",
+                "B. Dia menolak mengambilkan minum untuk ibunya",
+                "C. Dia menolak untuk membantu ibunya bekerja di ladang.",
+                "D. Dia bersikap durhaka dan menyangkal ibunya di depan orang banyak."
+            ],
+            "correctAnswer": "3",
+            "messageForCorrectAnswer": "Jawaban Benar!",
+            "messageForInorrectAnswer": "Jawaban Salah :(",
+            "point": "20"
+        }
+    ],
+    "quizSynopsis": "Yuk ikuti quiz seru tentang cerita rakyat Nusantara yang terkenal, Legenda Batu Menangis! Kamu akan diajak menjawab pertanyaan seputar cerita Legenda Batu Menangis, mulai dari awal hingga akhir kisahnya yang penuh pelajaran berharga.\n"
+}
