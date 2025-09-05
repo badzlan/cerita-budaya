@@ -3,35 +3,20 @@ import { ComposableMap, Geographies, Geography, Marker } from "react-simple-maps
 
 const geoUrl = "https://raw.githubusercontent.com/ghapsara/indonesia-atlas/refs/heads/master/provinsi/provinces-simplified-topo.json";
 
-const provinceStories = {
-   "Sumatera Barat": "malin-kundang",
-   "Jawa Barat": "sangkuriang",
-   "Kalimantan Barat": "batu-menangis",
-};
-
-const markers = [
-   {
-      markerOffset: -30,
-      name: "Malin Kundang",
-      coordinates: [100.3639, -0.9492],
-      slug: "malin-kundang",
-   },
-   {
-      markerOffset: -30,
-      name: "Sangkuriang",
-      coordinates: [107.6191, -6.9175],
-      slug: "sangkuriang",
-   },
-   {
-      markerOffset: -30,
-      name: "Batu Menangis",
-      coordinates: [109.3449, -0.0227],
-      slug: "batu-menangis",
-   },
-];
-
-export default function Map() {
+export default function Map({ cerita }) {
    const router = useRouter();
+
+   const provinceStories = cerita.reduce((acc, item) => {
+      acc[item.region] = item.slug;
+      return acc;
+   }, {});
+
+   const markers = cerita.map((item) => ({
+      markerOffset: -30,
+      name: item.title.split(":")[0],
+      coordinates: [item.location.lng, item.location.lat],
+      slug: item.slug,
+   }));
 
    return (
       <div className="w-full flex justify-center">

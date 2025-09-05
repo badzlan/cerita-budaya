@@ -1,0 +1,90 @@
+[
+   {
+      "slug": "sangkuriang",
+      "title": "Sangkuriang: Asal Usul Tangkuban Perahu",
+      "region": "Jawa Barat",
+      "island": "Pulau Jawa",
+      "thumbnail": "https://img.youtube.com/vi/X6IrY6aHGXo/hqdefault.jpg",
+      "videoUrl": "https://www.youtube.com/embed/X6IrY6aHGXo",
+      "synopsis": "Jauh di Jawa Barat, hiduplah seorang putri cantik bernama Dayang Sumbi. Suatu hari, ia menikah dengan seekor anjing sakti bernama Tumang, yang ternyata adalah jelmaan dewa. Dari pernikahan itu, lahirlah Sangkuriang. Saat dewasa, tanpa sadar ia jatuh cinta pada ibunya sendiri. Dayang Sumbi menolak lamaran tersebut dan memberi syarat mustahil: membuat danau dan perahu besar dalam satu malam. Bagaimana nasib Sangkuriang dan perahu raksasa itu?",
+      "location": { "lat": -6.8898, "lng": 107.615 },
+      "quizFile": "sangkuriang"
+   },
+   {
+      "slug": "si-pitung",
+      "title": "Si Pitung: Jagoan Betawi yang Suka Berbagi",
+      "region": "Jakarta",
+      "island": "Pulau Jawa",
+      "thumbnail": "https://img.youtube.com/vi/eAlIRyW4ebU/hqdefault.jpg",
+      "videoUrl": "https://www.youtube.com/embed/eAlIRyW4ebU",
+      "synopsis": "Amelia dan Leo: Petualangan Langit. Dulu, ada dua kakak beradik, Amelia dan Leo, yang bisa terbang! Mereka masuk ke dunia ajaib penuh sungai permen dan bunga bernyanyi. Dunia itu terancam oleh naga jahat yang mencuri semua permen. Amelia dan Leo harus melawan naga itu untuk mengembalikan kebahagiaan. Apakah mereka berhasil?",
+      "location": { "lat": -6.2088, "lng": 106.8456 },
+      "quizFile": "si_pitung"
+   },
+   {
+      "slug": "malin-kundang",
+      "title": "Malin Kundang: Anak Durhaka yang Menjadi Batu",
+      "region": "Sumatera Barat",
+      "island": "Pulau Sumatera",
+      "thumbnail": "https://img.youtube.com/vi/IQW64q5-lNE/hqdefault.jpg",
+      "videoUrl": "https://www.youtube.com/embed/IQW64q5-lNE",
+      "synopsis": "Malin Kundang, anak miskin yang merantau hingga menjadi pedagang kaya. Saat kembali ke kampung, ia malu mengakui ibunya yang miskin. Ibunya yang sakit hati pun berdoa, hingga Malin dihukum Tuhan: kapalnya hancur dan tubuhnya berubah menjadi batu.",
+      "location": { "lat": -0.9492, "lng": 100.3543 },
+      "quizFile": "malin_kundang"
+   },
+   {
+      "slug": "danau-toba",
+      "title": "Legenda Danau Toba: Rahasia Ikan Ajaib dan Kutukan Abadi",
+      "region": "Sumatera Utara",
+      "island": "Pulau Sumatera",
+      "thumbnail": "https://img.youtube.com/vi/Ixg99LvYHXI/hqdefault.jpg",
+      "videoUrl": "https://www.youtube.com/embed/Ixg99LvYHXI",
+      "synopsis": "Toba, seorang nelayan miskin, menikah dengan putri jelmaan ikan mas bersisik emas dengan syarat rahasia asal-usulnya tidak boleh terbongkar. Namun, suatu hari Toba melanggar janji itu. Seketika hujan deras turun dan air menenggelamkan desa mereka, membentuk Danau Toba dengan Pulau Samosir di tengahnya.",
+      "location": { "lat": 2.6889, "lng": 98.8756 },
+      "quizFile": "danau_toba"
+   },
+   {
+      "slug": "bawang-merah-bawang-putih",
+      "title": "Bawang Merah & Bawang Putih: Kakak Nakal dan Adik yang Baik Hati",
+      "region": "Riau",
+      "island": "Pulau Sumatera",
+      "thumbnail": "https://img.youtube.com/vi/gpaKM3oB9no/hqdefault.jpg",
+      "videoUrl": "https://www.youtube.com/embed/gpaKM3oB9no",
+      "synopsis": "Di sebuah desa, hiduplah seorang gadis baik hati bernama Bawang Putih bersama ayah, ibu, dan saudara tirinya, Bawang Merah. Setelah ayahnya merantau, sifat asli ibu tiri dan Bawang Merah mulai terlihat: mereka memperlakukan Bawang Putih dengan kejam. Suatu hari, ia kehilangan kain ibu tirinya dan bertemu dengan nenek misterius yang memberinya dua buah labu. Apa isi labu pilihan Bawang Putih? Dan bagaimana nasibnya setelah itu?",
+      "location": { "lat": 0.2933, "lng": 101.7068 },
+      "quizFile": "bawang_merput"
+   },
+   {
+      "slug": "keong-mas",
+      "title": "Keong Mas: Gadis Cantik yang Menjadi Keong",
+      "region": "Jawa Timur",
+      "island": "Pulau Jawa",
+      "thumbnail": "https://img.youtube.com/vi/14xZV-jEnY0/hqdefault.jpg",
+      "videoUrl": "https://www.youtube.com/embed/14xZV-jEnY0",
+      "synopsis": "Putri Candra Kirana dikutuk menjadi seekor keong mas oleh saudara tirinya, Dewi Galuh. Keong itu ditemukan seorang nenek baik hati. Diam-diam, Candra Kirana kembali ke wujud manusia untuk membantu si nenek. Sementara itu, pangeran terus mencari Candra Kirana. Akankah kutukan jahat Dewi Galuh bisa dipatahkan?",
+      "location": { "lat": -7.5361, "lng": 112.2384 },
+      "quizFile": "keong_mas"
+   },
+   {
+      "slug": "putri-samba-paria",
+      "title": "Putri Samba Paria: Kisah Putri Samba Paria dan Jejak Daun Misterius",
+      "region": "Sulawesi Barat",
+      "island": "Pulau Sulawesi",
+      "thumbnail": "https://img.youtube.com/vi/WCRQkZgWKbQ/hqdefault.jpg",
+      "videoUrl": "https://www.youtube.com/embed/WCRQkZgWKbQ",
+      "synopsis": "Putri Samba Paria dibawa paksa ke istana oleh seorang raja. Ia meninggalkan jejak daun paria agar adiknya bisa menemukannya. Berhasilkah mereka bersatu kembali? Kisah ini penuh petualangan dan kasih sayang saudara.",
+      "location": { "lat": -2.6746, "lng": 118.8886 },
+      "quizFile": "putri_samba_paria"
+   },
+   {
+      "slug": "asal-usul-burung-cendrawasih",
+      "title": "Asal Usul Burung Cendrawasih: Kisah Ajaib Anak Burung Surga dan Buah Misterius",
+      "region": "Papua",
+      "island": "Pulau Papua",
+      "thumbnail": "https://img.youtube.com/vi/CPyXHwdd2pE/hqdefault.jpg",
+      "videoUrl": "https://www.youtube.com/embed/CPyXHwdd2pE",
+      "synopsis": "Yakoba menemukan buah misterius yang membuatnya melahirkan anak ajaib bernama Koya. Karena iri, adik-adiknya berbuat jahat. Koya lalu membuat sayap dan berubah menjadi Burung Cendrawasih, burung indah dari Papua yang penuh keajaiban.",
+      "location": { "lat": -4.269928, "lng": 138.080353 },
+      "quizFile": "burung_cendrawasih"
+   }
+]
