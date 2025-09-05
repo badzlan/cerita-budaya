@@ -1,10 +1,15 @@
 import Banner from "@/components/Banner";
 import Card from "@/components/Card";
 import Map from "@/components/Map";
+import Head from "next/head";
 
 export default function Cerita() {
    return (
-      <div>
+      <>
+         <Head>
+            <title>Cerita | CeritaBudaya</title>
+            <meta name="description" content="Platform pembelajaran cerita rakyat interaktif." />
+         </Head>
          <Banner />
          <section className="pb-10 lg:pb-20">
             <div className="container">
@@ -33,6 +38,6 @@ export default function Cerita() {
                </div>
             </div>
          </section>
-      </div>
+      </>
    );
 }
