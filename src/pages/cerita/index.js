@@ -2,6 +2,7 @@ import Banner from "@/components/Banner";
 import Card from "@/components/Card";
 import Map from "@/components/Map";
 import Head from "next/head";
+import cerita from "@/data/cerita.json";
 
 export default function Cerita() {
    return (
@@ -14,7 +15,7 @@ export default function Cerita() {
          <section className="pb-10 lg:pb-20">
             <div className="container">
                <div className="flex justify-center mb-10">
-                  <Map />
+                  <Map cerita={cerita} />
                </div>
 
                <div className="mb-10">
@@ -32,9 +33,9 @@ export default function Cerita() {
                </div>
 
                <div className="flex flex-wrap -mx-4 pt-5 lg:pt-10">
-                  <Card />
-                  <Card />
-                  <Card />
+                  {cerita.map((item) => (
+                     <Card key={item.slug} {...item} />
+                  ))}
                </div>
             </div>
          </section>
