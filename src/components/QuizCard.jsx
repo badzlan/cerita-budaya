@@ -1,4 +1,4 @@
-import Quiz from "react-quiz-component";
+import Quiz from "./QuizComponent";
 
 export default function QuizCard({ quiz }) {
    return (
