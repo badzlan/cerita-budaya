@@ -11,7 +11,7 @@ export default function Banner({ title, subtitle }) {
                <div className="w-full px-4">
                   <div className="text-center">
                      <h1 className="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[40px] md:leading-[1.2]">{isDetail ? title : "Jelajahi Cerita Nusantara"}</h1>
-                     <p className="mb-5 text-base text-body-color">{isDetail ? subtitle : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. At alias explicabo dignissimos."}</p>
+                     <p className="mb-5 text-base text-body-color">{isDetail ? subtitle : "Setiap daerah punya kisahnya sendiri. Yuk, telusuri dongeng dan legenda yang hidup di hati masyarakat Indonesia."}</p>
 
                      <ul className="flex items-center justify-center gap-[10px]">
                         {isDetail ? (

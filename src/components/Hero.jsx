@@ -12,7 +12,8 @@ export default function Hero() {
                         Selamat Datang di Cerita<span style={{ color: "#f1c28b" }}>Budaya</span>
                      </h1>
                      <p className="mx-auto mb-9 max-w-[600px] text-base font-medium text-white sm:text-lg sm:leading-[1.44]">
-                        Cerita<span style={{ color: "#f1c28b" }}>Budaya</span> merupakan platform pembelajaran cerita rakyat dari berbagai daerah di Indonesia yang dilengkapi dengan Peta Interaktif, Video dan Quiz Pembelajaran, serta Virtual Tour.
+                        Belajar budaya Indonesia jadi lebih seru! <br/>
+                        Jelajahi cerita rakyat Nusantara lewat Peta Interaktif, Vidio menarik, Kuis seru, dan Virtual Tour.
                      </p>
 
                      <ul className="mb-10 flex flex-wrap items-center justify-center gap-5">
