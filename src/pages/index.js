@@ -7,7 +7,7 @@ import Head from "next/head";
 
 export default function Home() {
    return (
-      <>
+      <main className="overflow-hidden">
          <Head>
             <title>Home | CeritaBudaya</title>
             <meta name="description" content="Platform pembelajaran cerita rakyat interaktif." />
@@ -15,6 +15,6 @@ export default function Home() {
          <Hero />
          <Features items={featuresData} />
          <Team members={teamData} />
-      </>
+      </main>
    );
 }

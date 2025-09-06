@@ -9,7 +9,7 @@ import cerita from "@/data/cerita.json";
 export default function Cerita() {
 
    return (
-      <>
+      <div className="overflow-hidden">
          <Head>
             <title>Cerita | CeritaBudaya</title>
             <meta name="description" content="Platform pembelajaran cerita rakyat interaktif." />
@@ -36,12 +36,12 @@ export default function Cerita() {
                </div>
 
                <div className="flex flex-wrap -mx-4 pt-5 lg:pt-10">
-                  {cerita.map((item, i) => (
-                     <Card key={item.slug} {...item} delay={i * 0.2} />
+                  {cerita.map((item) => (
+                     <Card key={item.slug} {...item} />
                   ))}
                </div>
             </div>
          </section>
-      </>
+      </div>
    );
 }

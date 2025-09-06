@@ -1,13 +1,13 @@
 import Link from "next/link";
 import * as motion from "motion/react-client";
 
-export default function Card({ slug, title, region, thumbnail, synopsis, delay }) {
+export default function Card({ slug, title, region, thumbnail, synopsis }) {
    return (
       <motion.div 
        initial={{ opacity: 0, scale: 0.5 }}
   whileInView={{ opacity: 1, scale: 1 }}
   viewport={{ once: true}}
-  transition={{ type: "spring", bounce: 0.5, duration: 0.8, delay }}
+  transition={{ type: "spring", bounce: 0.5, duration: 0.8 }}
       className="w-full px-4 md:w-1/2 lg:w-1/3">
          <div className="mb-10 group">
             <div className="mb-8 overflow-hidden rounded-xl">
