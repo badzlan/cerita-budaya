@@ -56,7 +56,7 @@ const child = {
             viewport={{ once: true, amount: 0.3 }}
             className="-mx-4 flex flex-wrap justify-center">
                {members.map((member, index) => (
-                  <motion.div variants={child} key={index} className="w-full px-4 sm:w-1/2 lg:w-1/3 xl:w-1/3">
+                  <motion.div variants={child} whileHover={{ scale: 1.1, transition:1 }} key={index} className="w-full px-4 sm:w-1/2 lg:w-1/3 xl:w-1/3">
                      <div className="group mb-8 rounded-xl bg-white px-5 pb-10 pt-12 shadow-testimonial">
                         <div className="relative z-10 mx-auto mb-5 h-[120px] w-[120px]">
                            <Image src={member.image} alt={member.name} width={120} height={120} className="h-[120px] w-[120px] rounded-full object-cover" />
