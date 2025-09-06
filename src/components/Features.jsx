@@ -12,7 +12,7 @@ export default function Features({ items }) {
                   transition={{
                      type: "spring",
                      bounce: 0.5,
-                     duration: 1,
+                     duration: 1.5,
                   }}
                   viewport={{ once: true, amount: 0.3 }}
                   className="mx-auto mb-12 max-w-[485px] text-center lg:mb-[70px]">
@@ -31,7 +31,7 @@ export default function Features({ items }) {
                   transition={{
                      type: "spring",
                      bounce: 0.5,
-                     duration: 1,
+                     duration: 1.5,
                   }}
                   viewport={{ once: true, amount: 0.3 }}
                   className="w-full px-4 md:w-1/2 lg:w-1/4">

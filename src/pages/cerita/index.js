@@ -4,7 +4,10 @@ import Map from "@/components/Map";
 import Head from "next/head";
 import cerita from "@/data/cerita.json";
 
+
+
 export default function Cerita() {
+
    return (
       <>
          <Head>
@@ -33,8 +36,8 @@ export default function Cerita() {
                </div>
 
                <div className="flex flex-wrap -mx-4 pt-5 lg:pt-10">
-                  {cerita.map((item) => (
-                     <Card key={item.slug} {...item} />
+                  {cerita.map((item, i) => (
+                     <Card key={item.slug} {...item} delay={i * 0.2} />
                   ))}
                </div>
             </div>

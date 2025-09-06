@@ -7,7 +7,8 @@ export default function Team({ members }) {
   show: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.3,
+      staggerChildren: 0.5,
+      duration:1.5
     },
   },
 };
@@ -34,7 +35,7 @@ const child = {
                   transition={{
                      type: "spring",
                      bounce: 0.5,
-                     duration: 1,
+                     duration: 1.5,
                   }}
                   viewport={{ once: true, amount: 0.3 }}
                   className="mx-auto mb-[60px] max-w-[485px] text-center">

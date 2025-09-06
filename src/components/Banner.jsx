@@ -1,4 +1,5 @@
 import Link from "next/link";
+import * as motion from "motion/react-client";
 
 export default function Banner({ title, subtitle }) {
    const isDetail = !!title;
@@ -9,7 +10,15 @@ export default function Banner({ title, subtitle }) {
          <div className="container">
             <div className="flex flex-wrap items-center -mx-4">
                <div className="w-full px-4">
-                  <div className="text-center">
+                  <motion.div 
+                  initial={{ opacity: 0, y: 100 }} 
+                  animate={{ opacity: 1, y:0 }}
+                  transition={{
+                     type: "spring",
+                     bounce: 0.5,
+                     duration: 1.5,
+                  }}
+                  className="text-center">
                      <h1 className="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[40px] md:leading-[1.2]">{isDetail ? title : "Jelajahi Cerita Nusantara"}</h1>
                      <p className="mb-5 text-base text-body-color">{isDetail ? subtitle : "Setiap daerah punya kisahnya sendiri. Yuk, telusuri dongeng dan legenda yang hidup di hati masyarakat Indonesia."}</p>
 
@@ -44,7 +53,7 @@ export default function Banner({ title, subtitle }) {
                            </>
                         )}
                      </ul>
-                  </div>
+                  </motion.div>
                </div>
             </div>
          </div>
