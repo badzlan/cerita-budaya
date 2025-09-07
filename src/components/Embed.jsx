@@ -1,9 +1,9 @@
-export default function Embed({ videoUrl, synopsis }) {
+export default function Embed({ videoUrl, synopsis, virtualTourUrl }) {
    return (
       <div>
          <div className="relative z-20 mb-[50px] h-[200px] overflow-hidden rounded-[5px] md:h-[385px] lg:h-[650px]">
             <iframe
-               src={videoUrl} // auto convert link youtube
+               src={videoUrl}
                width="100%"
                height="100%"
                className="object-cover object-center"

@@ -40,13 +40,21 @@ export default function DetailCerita({ cerita, quiz }) {
             <div className="container">
                <div className="-mx-4 flex flex-wrap justify-center">
                   <div className="w-full px-4">
-                     <Embed videoUrl={cerita.videoUrl} synopsis={cerita.synopsis} />
+                     <Embed videoUrl={cerita.videoUrl} synopsis={cerita.synopsis} virtualTourUrl={cerita.virtualTourUrl} />
 
                      {quiz && (
                         <div className="flex flex-wrap -mx-4 mt-6">
                            <div className="w-full px-4 lg:w-8/12 mx-auto">
                               <QuizCard quiz={quiz} shuffle={true} />
                            </div>
+                        </div>
+                     )}
+
+                     {cerita.virtualTourUrl && (
+                        <div className="mt-10 text-center">
+                           <a href={cerita.virtualTourUrl} target="_blank" rel="noopener noreferrer" className="inline-block rounded-md bg-primary px-6 py-3 text-white font-medium shadow hover:bg-opacity-90">
+                              Lihat Virtual Tour
+                           </a>
                         </div>
                      )}
                   </div>
