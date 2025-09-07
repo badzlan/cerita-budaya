@@ -1,8 +1,14 @@
 import Link from "next/link";
+import * as motion from "motion/react-client";
 
 export default function Card({ slug, title, region, thumbnail, synopsis }) {
    return (
-      <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+      <motion.div 
+       initial={{ opacity: 0, scale: 0.5 }}
+  whileInView={{ opacity: 1, scale: 1 }}
+  viewport={{ once: true}}
+  transition={{ type: "spring", bounce: 0.5, duration: 0.8 }}
+      className="w-full px-4 md:w-1/2 lg:w-1/3">
          <div className="mb-10 group">
             <div className="mb-8 overflow-hidden rounded-xl">
                <Link href={`/cerita/${slug}`}>
@@ -20,6 +26,6 @@ export default function Card({ slug, title, region, thumbnail, synopsis }) {
                <p className="max-w-[370px] text-base text-body-color">{synopsis.substring(0, 100)}...</p>
             </div>
          </div>
-      </div>
+      </motion.div>
    );
 }
