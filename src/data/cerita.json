@@ -9,19 +9,18 @@
       "synopsis": "Jauh di Jawa Barat, hiduplah seorang putri cantik bernama Dayang Sumbi. Suatu hari, ia menikah dengan seekor anjing sakti bernama Tumang, yang ternyata adalah jelmaan dewa. Dari pernikahan itu, lahirlah Sangkuriang. Saat dewasa, tanpa sadar ia jatuh cinta pada ibunya sendiri. Dayang Sumbi menolak lamaran tersebut dan memberi syarat mustahil: membuat danau dan perahu besar dalam satu malam. Bagaimana nasib Sangkuriang dan perahu raksasa itu?",
       "location": { "lat": -6.8898, "lng": 107.615 },
       "quizFile": "sangkuriang",
-      "virtualTourUrl": "https://www.google.com/maps/@-6.7594,107.6098,3a,75y,90t/data=!3m6!1e1!3m4!1sAF1QipN0kTeOaJysUQxaDnIleR2PQ1CxtNnKfFjD1jQ!2e10!7i8704!8i4352"
+      "virtualTourUrl": "https://maps.app.goo.gl/XzVbsY4pLzGdL8GV7"
    },
    {
       "slug": "si-pitung",
       "title": "Si Pitung: Jagoan Betawi yang Suka Berbagi",
-      "region": "DKI Jakarta",
+      "region": "Jakarta",
       "island": "Pulau Jawa",
       "thumbnail": "https://img.youtube.com/vi/eAlIRyW4ebU/hqdefault.jpg",
       "videoUrl": "https://www.youtube.com/embed/eAlIRyW4ebU",
       "synopsis": "Amelia dan Leo: Petualangan Langit. Dulu, ada dua kakak beradik, Amelia dan Leo, yang bisa terbang! Mereka masuk ke dunia ajaib penuh sungai permen dan bunga bernyanyi. Dunia itu terancam oleh naga jahat yang mencuri semua permen. Amelia dan Leo harus melawan naga itu untuk mengembalikan kebahagiaan. Apakah mereka berhasil?",
       "location": { "lat": -6.2088, "lng": 106.8456 },
-      "quizFile": "si_pitung",
-      "virtualTourUrl": "https://www.google.com/maps/@-6.3383,106.8250,3a,75y,90t/data=!3m6!1e1!3m4!1sAF1QipMZjhXy0cPP2DZJm0JrH9dUqWmgdG8_9mZpZpp!2e10!7i8704!8i4352"
+      "quizFile": "si_pitung"
    },
    {
       "slug": "malin-kundang",
@@ -33,7 +32,7 @@
       "synopsis": "Malin Kundang, anak miskin yang merantau hingga menjadi pedagang kaya. Saat kembali ke kampung, ia malu mengakui ibunya yang miskin. Ibunya yang sakit hati pun berdoa, hingga Malin dihukum Tuhan: kapalnya hancur dan tubuhnya berubah menjadi batu.",
       "location": { "lat": -0.9492, "lng": 100.3543 },
       "quizFile": "malin_kundang",
-      "virtualTourUrl": "https://www.google.com/maps/@-0.9342958,100.3609972,3a,75y,90t/data=!3m6!1e1!3m4!1sAF1QipMMuIjSm0zKpy3f8KD2AEI4uGJ9J6SdpnghVnYn!2e10!7i8704!8i4352"
+      "virtualTourUrl": "https://maps.app.goo.gl/runFR3MXcHPyWDfy6"
    },
    {
       "slug": "danau-toba",
@@ -45,7 +44,7 @@
       "synopsis": "Toba, seorang nelayan miskin, menikah dengan putri jelmaan ikan mas bersisik emas dengan syarat rahasia asal-usulnya tidak boleh terbongkar. Namun, suatu hari Toba melanggar janji itu. Seketika hujan deras turun dan air menenggelamkan desa mereka, membentuk Danau Toba dengan Pulau Samosir di tengahnya.",
       "location": { "lat": 2.6889, "lng": 98.8756 },
       "quizFile": "danau_toba",
-      "virtualTourUrl": "https://www.google.com/maps/@2.6742552,98.8796001,3a,75y,90t/data=!3m6!1e1!3m4!1sAF1QipN4uM12oMqHqLQfGxV5Xo6uLbnSgPqQJ9KM3zlg!2e10!7i8704!8i4352"
+      "virtualTourUrl": "https://maps.app.goo.gl/ML616GpjuvNKJoHQ7"
    },
    {
       "slug": "bawang-merah-bawang-putih",
@@ -67,8 +66,7 @@
       "videoUrl": "https://www.youtube.com/embed/14xZV-jEnY0",
       "synopsis": "Putri Candra Kirana dikutuk menjadi seekor keong mas oleh saudara tirinya, Dewi Galuh. Keong itu ditemukan seorang nenek baik hati. Diam-diam, Candra Kirana kembali ke wujud manusia untuk membantu si nenek. Sementara itu, pangeran terus mencari Candra Kirana. Akankah kutukan jahat Dewi Galuh bisa dipatahkan?",
       "location": { "lat": -7.5361, "lng": 112.2384 },
-      "quizFile": "keong_mas",
-      "virtualTourUrl": "https://www.google.com/maps/place/Museum+Angkut/@-7.8975,112.5333,3a,75y,90t/data=!3m6!1e1!3m4!1s0x2dd6281e3c68b1f5:0x887f3638a980f1f!2e10!7i8704!8i4352"
+      "quizFile": "keong_mas"
    },
    {
       "slug": "legenda-batu-menangis",
@@ -101,8 +99,7 @@
       "videoUrl": "https://www.youtube.com/embed/SfINME_BJHE",
       "synopsis": "Di Pulau Jawa, hiduplah seorang anak bernama Manik Angkeran yang serakah. Ayahnya meminjam kekayaan naga ajaib untuk menolongnya, tetapi Manik justru makin tamak. Perbuatannya membuat naga marah dan sebuah keajaiban terjadi: bumi terbelah, menciptakan Selat Bali yang memisahkan ayah dan anak itu untuk selamanya.",
       "location": { "lat": -8.4095, "lng": 115.1889 },
-      "quizFile": "selat_bali",
-      "virtualTourUrl": "https://www.google.com/maps/@-8.157116,114.430658,3a,75y,90t/data=!3m6!1e1!3m4!1sAF1QipPf1nX-5uyqvQbY3L8U1u4KhQaxhXWbiNY-OGtG!2e10!7i8704!8i4352"
+      "quizFile": "selat_bali"
    },
    {
       "slug": "timun-mas",
@@ -135,6 +132,7 @@
       "videoUrl": "https://www.youtube.com/embed/CPyXHwdd2pE",
       "synopsis": "Yakoba menemukan buah misterius yang membuatnya melahirkan anak ajaib bernama Koya. Karena iri, adik-adiknya berbuat jahat. Koya lalu membuat sayap dan berubah menjadi Burung Cendrawasih, burung indah dari Papua yang penuh keajaiban.",
       "location": { "lat": -4.269928, "lng": 138.080353 },
-      "quizFile": "burung_cendrawasih"
+      "quizFile": "burung_cendrawasih",
+      "virtualTourUrl": "https://maps.app.goo.gl/SRpDVfvQh2XL1uk77"
    }
 ]
